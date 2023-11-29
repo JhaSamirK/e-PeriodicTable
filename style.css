@@ -1,0 +1,71 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  header {
+    background-color: #4ba0a0;
+    /*#51b1f0 */
+    color: white;
+    text-align: center;
+    padding: 1px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 5px;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: auto;
+  
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #736868;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #379a43;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #elementDetails {
+    background-color: floralwhite;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* #h5{
+    color: black;
+    display: flex;
+    margin-top: 0px;
+    padding:0px;
+  } */
+  .txt {
+    position: fixed;
+    bottom: 0;
+    right: 2px;
+    color: #c83c3c;
+  }
+  
+  .hidden {
+    display: none;
+  }
